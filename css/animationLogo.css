@@ -1,0 +1,32 @@
+@keyframes animatedLogo {
+    0%   {
+        background-color: red;
+
+    }
+    25%  {
+        background-color: yellow; 
+        transform: rotate(45deg);
+    }
+    50%  {
+        background-color: blue; 
+        transform: rotate(90deg);}
+    100% {
+        background-color: green; 
+        filter: drop-shadow(16px 16px 20px red) invert(75%);
+        transform: rotate(180deg);}
+  }
+
+  div:hover {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: animatedLogo;
+    animation-duration: 2s;
+    animation-iteration-count: 4;  
+    position: relative;     
+  } 
+
+#linkedinImage {
+    width: 100px;
+    height: 100px;
+}
